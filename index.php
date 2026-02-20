@@ -1,11 +1,17 @@
 <?php
-include "componetes/head.php";
+include "componentes/head.php";
 ?>
 </head>
+
 <body>
     <?php
-    include "componetes/header.php";
-    include "componetes/banner.php";
+    include "componentes/header.php";
     ?>
+    <main>
+    <?php
+    include "componentes/banner.php";
+    ?>
+    </main>
 </body>
+
 </html>
